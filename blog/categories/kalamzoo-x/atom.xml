@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Kalamzoo X | My Octopress Blog]]></title>
+  <title><![CDATA[Category: Kalamzoo X | Birdblog]]></title>
   <link href="http://Birdrock.github.io/blog/categories/kalamzoo-x/atom.xml" rel="self"/>
   <link href="http://Birdrock.github.io/"/>
-  <updated>2014-05-07T17:57:06-05:00</updated>
+  <updated>2014-05-07T22:11:29-05:00</updated>
   <id>http://Birdrock.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Andrew Wittrock]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>

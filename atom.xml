@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Birdblog]]></title>
   <link href="http://Birdrock.github.io/atom.xml" rel="self"/>
   <link href="http://Birdrock.github.io/"/>
-  <updated>2014-05-07T17:57:06-05:00</updated>
+  <updated>2014-05-07T22:11:29-05:00</updated>
   <id>http://Birdrock.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Andrew Wittrock]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
