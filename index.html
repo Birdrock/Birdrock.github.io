@@ -9,7 +9,7 @@
   <meta name="author" content="Andrew Wittrock">
 
   
-  <meta name="description" content="RailsConf 2014 I was lucky enough to volunteer for RailsConf 2014. It was an amazing experience, and I learned quite a bit from the talks I was able &hellip;">
+  <meta name="description" content="Linked In integration There is one thing you should never do in Linked In land. Never allow it to access your Gmail account. I was curious enough to &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -38,7 +38,7 @@
   <header role="banner"><hgroup>
   <h1><a href="/">Birdblog</a></h1>
   
-    <h2>An avian related tech blog..</h2>
+    <h2>An avian related tech blog.</h2>
   
 </hgroup>
 
@@ -65,6 +65,50 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/05/08/travails-in-linked-in/">Travails in Linked In</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-05-08T17:28:05-05:00" pubdate data-updated="true">May 8<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>Linked In integration</h2>
+
+<p>There is one thing you should never do in Linked In land. Never allow it to access your Gmail account. I was curious enough to allow it to search my contacts (a pretty boneheaded maneuver). It brought up a list of people, but I didn&rsquo;t want to send out invites. I unchecked &lsquo;all&rsquo; and clicked skip. No problem, right? Over the next day I noticed a number of accepted connections with people I never sent invites to. I digged into Linked In and found a number of sent invitations &ndash; about 491 of them. I immediately revoked access, but the damage was done. As I paged through the list, my heart sunk. There were invitations to previous employers, jobs I had applied for, ex-girlfriends, and even craigslist addresses.</p>
+
+<p>(Linked In has since updated their interface, making the following less dire.) My first instinct was to delete the invitations in the sent folder. Before proceeding with this plan of action, I scoured the internet for a solution. It turns out that this would only delete the message. The invitation would still be pending, and further messages would still be sent. (Linked in sends an initial email and 2 followup emails for every invitation.) The solution was to click on the invitation link in every message, then select the withdraw invitation option&hellip; (Another option is to contact Linked In support to ask for them to revoke all pending invitations.) Several hundred invitation withdrawls later, I felt like I was emerging into the light from my dive through the tunnel.</p>
+
+<p>With my invitation debacle contained, I breathed a sigh of relief and clicked around my nascent Linked In profile. When I noticed some strange connection suggestions, I felt unsettled and decided to dig deeper. What I found was the copy of my entire Gmail address book, saved as imported contacts in Linked In. In order to remove them, I had to find the option to &lsquo;manage imported contacts&rsquo; burried in the network tab under &lsquo;add connections&rsquo;. The &lsquo;Select All&rsquo; box was checked, and I clicked Delete selected contacts. On Chrome, this took me to a white page with no result. After repeating the process in Firefox, I was given the message that I was trying to delete too many contacts at one time, without any indication of what an acceptable number was. An internet search suggested that 10 contacts was the maximum number (as well as the number of displayed entries per page. To delete the 491 contacts, I would need to make 589 clicks. I don&rsquo;t relish the thought of carpal tunnel, so I consulted Linked In support. After several emails back and forth, the Linked In support team deleted my imported contacts from their end.</p>
+
+<p>I&rsquo;ve got 99 problems, and Linked In is certainly 1.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -173,10 +217,43 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/05/08/travails-in-linked-in/">Travails in Linked In</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/05/07/railsconf-2014-and-kalamazoo-x/">RailsConf 2014 and Kalamazoo X</a>
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/Birdrock">@Birdrock</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'Birdrock',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
