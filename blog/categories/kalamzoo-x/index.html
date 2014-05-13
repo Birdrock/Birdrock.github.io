@@ -3,6 +3,10 @@
 <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <title>Category: Kalamzoo X - Birdblog</title>
@@ -26,160 +30,161 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
   
 
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Birdblog</a></h1>
-  
-    <h2>An avian related tech blog.</h2>
-  
-</hgroup>
+  <body>
+    <a href="/" class="home-icon">
+      <img src="/images/home.png"/>
+    </a>
 
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:Birdrock.github.io" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
+    <div class="all-posts">
+  <div class="container">
+    <div class="row">
+      <div class="list-title col-md-offset-3 col-md-6">
+        <h4>Posts in Kalamzoo X</h4>
+      </div>
+    </div>
+  </div>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article role="article">
+  <div class="article-list">
+    <div class="container">
+      
+        
+        <div class="row">
+          <div class="col-md-offset-3 col-md-6">
+            <article>
+  <h2><a href="/blog/2014/05/07/railsconf-2014-and-kalamazoo-x/">RailsConf 2014 and Kalamazoo X</a></h2>
   
-  <header>
-    <h1 class="entry-title">Category: Kalamzoo X</h1>
+  <p>
+    <h2>RailsConf 2014</h2>
+
+<p>I was lucky enough to volunteer for RailsConf 2014. It was an amazing experience, and I learned quite a bit from the talks I was able to attend.</p>
+
+<h3><a href="http://www.railsconf.com/program#prop_410">Keither and Mario&rsquo;s Guide to Continuous Deployment with Rails</a></h3>
+
+<p>This was an interesting look at managing an automatic deployment configuration with multiple testing stages. It truly is amazing what you can do with a continuous integration suite, tied into an automatic push to master, supplemented with smoke tests.</p>
+
+<p>Additionally, it&rsquo;s the only tech talk I&rsquo;ve witnessed that involved a spontaneously combusting wallet.</p>
+
+<h3><a href="http://www.railsconf.com/program#prop_164">Demystifying Data Science: A Live Tutorial</a></h3>
+
+<p>It was really interesting to watch Todd live code some scraping and data analytics. He made it seem extremely simple to generate interesting visualizations of word frequency on wedding records. He also mentioned <a href="rapgenius.com/rapstats">Rap Stats</a> &ndash; an amusing look at the frequency of words in rap tracks.</p>
+
+<h3><a href="http://www.railsconf.com/program#prop_376">Debugger Driven Development with Pry</a></h3>
+
+<p>This blew my mind. I&rsquo;ve used pry and pry-nav to debug and sort through the stack before, but using rescue on your rails server and even rspec was something that was really cool. It was extremely cool to see Joel work through making specs pass without running them twice. This did lead to some mirth on my part after seeing 4 specs pass in 9 minutes, several seconds.</p>
+
+<p>Pry is an exceptional tool with extensions that fully realize the power of digging through the stack and making changes on the fly &ndash; no reload required.</p>
+
+<h3><a href="http://www.railsconf.com/program#prop_433">Effectively Testing Services</a></h3>
+
+<p>Gone are the days of blowing API calls to test a feature. Gone are the days of being unable to work without internet connectivity. This was a great talk on how to properly test API services &ndash; specifically how to stub out the responses while still making them properly testable.</p>
+
+<h3><a href="http://www.railsconf.com/program#prop_82">Software Development Lessons from the Apollo Program</a></h3>
+
+<p>Unfortunately, I couldn&rsquo;t stay for the whole talk, as I was working a shift during the latter half. That said, I loved relating computing to the space program. I&rsquo;ve always been enamored with human space flight.</p>
+
+<p>Learning more about the roots of the computing revolution was fantastic. Female developers should take pride in knowing that the basis of computer science relied upon work that &lsquo;Computers&rsquo; (the job title) did during the foundation of the microprocessor era. Many women were instrumental in this process.</p>
+
+<h3><a href="http://www.railsconf.com/program#prop_228">An Ode to 17 Databases in 33 minutes</a></h3>
+
+<p>I quite enjoyed the DnD style character card representation of databases. Toby gave us a tour de force look at a wide variety of databases. There are plenty of options, and the choice of which one to use can be difficult. I&rsquo;ve earmarked RiakDB, Neo4j, Hyperdex, and ElasticSearch for further research.</p>
+
+<h3><a href="http://www.railsconf.com/program#prop_266">Bring Fun Back to JS: Step-by-Step Refactoring Toward Ember</a></h3>
+
+<p>Ember is a flavor of javascript that I&rsquo;m looking forward to delving into. I&rsquo;ve heard several of the rants against javascript, but it is incredible how flexible it is. Making the front end more cohesive is certainly something that I&rsquo;m yearning for.</p>
+
+<h3><a href="http://www.railsconf.com/program#prop_220">The &ldquo;Rails of JavaScript&rdquo; won&rsquo;t be a Framework</a></h3>
+
+<p>Lineman.js is an exciting development. What Rails does for ease of creation of a web app, Lineman extends with and easy setup of javascript. I love how simple Rails makes generating a web application, but the javascript side can have teething pains. Utilizing Lineman seems to eliminate some of the headache by providing standardization in application.</p>
+
+<p>I&rsquo;m excited to try it out when I can manage to find time for it. There are so many exciting languages, frameworks, and testing utilities that I feel like I&rsquo;ll never have enough time to explore them all properly.</p>
+
+<h3>Tenderlove&rsquo;s Keynote</h3>
+
+<p>Aaron&rsquo;s keynote was hilarious and exciting. His arguments that science has a place in web development struck true with me. It isn&rsquo;t the low level stuff, but science provides some metrics for improvement.</p>
+
+<p>He demonstrated this with his fork of ActiveRecord, AdequateRecord. He ripped out some of the more ubscure querying methods and inconsistent behavior. After this, he set about adding some cacheing to speed up querying. The improvements were astounding to say the least. Querying through 17 has_many :through relations took a similar amount of time as compared to a single table query. This will help eliminate some of the more grotesque cacheing implementations and extraneous relations that I&rsquo;ve used in the past.</p>
+
+<p>As an extra bonus, I got to shake Aaron&rsquo;s hand and claim my very own Gorbypuff sticker!</p>
+
+<h2>Kalamazoo X</h2>
+
+<p>Right after closing down the information booth at RailsConf 2014, I jumped in a car and headed off to Kalamazoo, MI for Kalamzoo X. This conference focused more on soft skills and leading a productive life without facing burnout.</p>
+
+<p>My favorite <a href="http://kalamazoox.org/2014-2/sessions/">session</a> was Leon&rsquo;s Allegory of the Cave by Leon Gersing. As we are increasingly immersed in technology, we adopt the ideologies of the companies and communities we follow. Instead of holding the values of the community around us, which may involve conflicting ideals, we isolate ourselves into a cave of &lsquo;yes men&rsquo; who all share the same ideals and become increasingly extreme upon them. To see this in action, look no further than the &lsquo;Great Smartphone Wars&rsquo; we are wading through today. There is incessant bickering between the fanboy camps about who is the best &ndash; and not only who is the best, but that everything else is rubbish. We associate the technology with the person in these virtual communities and become exceptionally closed to any other viewpoints. We group into small passionate communities with no voice of dissention or reason &ndash; We become &lsquo;us&rsquo; and &lsquo;them&rsquo;. They are the enemy, and we are the good guys.</p>
+
+<p>This is important. People need to free themselves from the singular viewpoint and be open to others. Collaboration is key, and eventually, no matter how sheltered you are, you must work with someone you disagree with. If you are so mired in your &lsquo;us vs. them&rsquo; viewpoint, and extrapolate your choices, you won&rsquo;t be able to properly work together, let alone see merit in an opposing viewpoint.</p>
+
+  </p>
+  <span class="meta">
+    written 
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2014-05-07T16:33:12-05:00" pubdate data-updated="true">May 7<span>th</span>, 2014</time>
     
-  </header>
+
+in
+<span class="categories">
   
-  <div id="blog-archives" class="category">
+    <a class='category' href='/blog/categories/kalamzoo-x/'>Kalamzoo X</a>, <a class='category' href='/blog/categories/railsconf-2014/'>RailsConf 2014</a>
+  
+</span>
 
 
+  </span>
 
   
-  <h2>2014</h2>
-
-<article>
-  
-<h1><a href="/blog/2014/05/07/railsconf-2014-and-kalamazoo-x/">RailsConf 2014 and Kalamazoo X</a></h1>
-<time datetime="2014-05-07T16:33:12-05:00" pubdate><span class='month'>May</span> <span class='day'>07</span> <span class='year'>2014</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/kalamzoo-x/'>Kalamzoo X</a>, <a class='category' href='/blog/categories/railsconf-2014/'>RailsConf 2014</a></span>
-</footer>
-
-
 </article>
 
+          </div>
+        </div>
+      
+    </div>
+  </div>
 </div>
 
-  
-</article>
-
+    <footer id="footer" class="her-row">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+  <a href="/"><h4>Home</h4></a>
 </div>
 
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
+<div class="col-md-2">
+  <div class="social-icon-list">
     
-      <li class="post">
-        <a href="/blog/2014/05/08/travails-in-linked-in/">Travails in Linked In</a>
-      </li>
+    <a href="https://twitter.com/AndrewWittrock"><img src="/images/glyphicons_social_31_twitter.png"/></a>
     
-      <li class="post">
-        <a href="/blog/2014/05/07/railsconf-2014-and-kalamazoo-x/">RailsConf 2014 and Kalamazoo X</a>
-      </li>
+
     
-  </ul>
-</section>
+    <a href="https://github.com/Birdrock"><img src="/images/glyphicons_social_21_github.png"/></a>
+    
 
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating...</li>
-  </ul>
-  
-  <a href="https://github.com/Birdrock">@Birdrock</a> on GitHub
-  
-  <script type="text/javascript">
-    $(document).ready(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
+    
+  </div>
+</div>
 
-        github.showRepos({
-            user: 'Birdrock',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-
-
-
-  
-</aside>
+<div class="pull-right">
+  <h4>Powered by <a href="http://octopress.org/">Octopress</a>. Designed by <a href="http://AdrianArtiles.com">Adrian Artiles</a>.</h4>
+</div>
 
 
     </div>
   </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Andrew Wittrock -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
 </footer>
-  
 
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
+  </body>
 </html>
