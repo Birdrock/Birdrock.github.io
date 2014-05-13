@@ -31,7 +31,7 @@ Unfortunately, I couldn't stay for the whole talk, as I was working a shift duri
 
 Learning more about the roots of the computing revolution was fantastic. Female developers should take pride in knowing that the basis of computer science relied upon work that 'Computers' (the job title) did during the foundation of the microprocessor era. Many women were instrumental in this process.
 
-###[http://www.railsconf.com/program#prop_82](http://www.railsconf.com/program#prop_228)
+###[An Ode to 17 Databases in 33 minutes](http://www.railsconf.com/program#prop_228)
 I quite enjoyed the DnD style character card representation of databases. Toby gave us a tour de force look at a wide variety of databases. There are plenty of options, and the choice of which one to use can be difficult. I've earmarked RiakDB, Neo4j, Hyperdex, and ElasticSearch for further research.
 
 ###[Bring Fun Back to JS: Step-by-Step Refactoring Toward Ember](http://www.railsconf.com/program#prop_266)
