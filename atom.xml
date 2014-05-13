@@ -4,7 +4,7 @@
   <title><![CDATA[Birdblog]]></title>
   <link href="http://Birdrock.github.io/atom.xml" rel="self"/>
   <link href="http://Birdrock.github.io/"/>
-  <updated>2014-05-10T17:05:52-05:00</updated>
+  <updated>2014-05-12T21:09:42-05:00</updated>
   <id>http://Birdrock.github.io/</id>
   <author>
     <name><![CDATA[Andrew Wittrock]]></name>
@@ -65,7 +65,7 @@
 
 <p>Learning more about the roots of the computing revolution was fantastic. Female developers should take pride in knowing that the basis of computer science relied upon work that &lsquo;Computers&rsquo; (the job title) did during the foundation of the microprocessor era. Many women were instrumental in this process.</p>
 
-<h3><a href="http://www.railsconf.com/program#prop_228">http://www.railsconf.com/program#prop_82</a></h3>
+<h3><a href="http://www.railsconf.com/program#prop_228">An Ode to 17 Databases in 33 minutes</a></h3>
 
 <p>I quite enjoyed the DnD style character card representation of databases. Toby gave us a tour de force look at a wide variety of databases. There are plenty of options, and the choice of which one to use can be difficult. I&rsquo;ve earmarked RiakDB, Neo4j, Hyperdex, and ElasticSearch for further research.</p>
 
